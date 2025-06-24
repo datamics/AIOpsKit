@@ -45,6 +45,28 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
+### Create directory structure
+
+FiftyOne requires a specific directory structure to store its database, datasets, models, and configuration files in one place. This ensures all necessary files are organized and accessible for your MLCon workshop environment. The paths below correspond to the variables in the `.env.sample` file:
+
+```
+1_FiftyOne/fiftyone_root/
+├── database/           # FiftyOne database files
+├── default/            # Default dataset directory
+├── zoo/
+│   ├── datasets/       # Dataset zoo directory
+│   └── models/         # Model zoo directory
+└── configs/            # FiftyOne configuration files
+```
+
+You can create these directories with the following command (from the MLCon root):
+
+```bash
+mkdir -p 1_FiftyOne/fiftyone_root/database 1_FiftyOne/fiftyone_root/default 1_FiftyOne/fiftyone_root/zoo/datasets 1_FiftyOne/fiftyone_root/zoo/models 1_FiftyOne/fiftyone_root/configs
+```
+
+Make sure to update your `.env` file with the correct paths if you change the directory names or locations.
+
 ## Makefile Commands
 
 | Command               | Description                                                      |
