@@ -33,7 +33,7 @@ Follow these steps to set up your environment, make sure python 3.12+ is already
 ```bash
 # 1. Clone the repository
 git clone <repository-url>
-cd MLCon_25S/MLCon
+cd AIOpsKit/MLCon
 
 # 2. (Recommended) Use the provided Makefile for setup
 make setup
@@ -51,6 +51,5 @@ pip install -r requirements.txt
 |-----------------------|------------------------------------------------------------------|
 | `make setup`          | Install Python 3.12 (if needed), create venv, install requirements|
 | `make install`        | Install Python dependencies from requirements.txt                |
-| `make run fiftyone`   | Launch the FiftyOne app (for dataset visualization)              |
 | `make run labelstudio`| Launch the Label Studio app (for data labeling)                  |
 | `make check`          | Check if Python 3.12 is installed                                |
