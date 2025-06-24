@@ -8,6 +8,22 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+.DS_Store
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+# pipenv
+Pipfile.lock
+# poetry
+poetry.lock
+# pdm
+pdm.lock
+# pyflow
+__pypackages__/         
 mlruns/
 artifact_store/
 build/
@@ -178,4 +194,3 @@ fiftyone_root/
 data/
 
 .ipynb_checkpoints
-*.ipynb
