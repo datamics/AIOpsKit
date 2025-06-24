@@ -1,7 +1,0 @@
-scikit-learn
-fiftyone
-umap-learn
-label-studio
-label-studio-sdk
-torch
-torchvision
