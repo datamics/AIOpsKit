@@ -51,5 +51,5 @@ pip install -r requirements.txt
 |-----------------------|------------------------------------------------------------------|
 | `make setup`          | Install Python 3.12 (if needed), create venv, install requirements|
 | `make install`        | Install Python dependencies from requirements.txt                |
-| `make run labelstudio`| Launch the Label Studio app (for data labeling)                  |
+| `make run_labelstudio`| Launch the Label Studio app (for data labeling)                  |
 | `make check`          | Check if Python 3.12 is installed                                |
