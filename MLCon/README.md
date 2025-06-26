@@ -61,9 +61,6 @@ FiftyOne requires a specific directory structure to store its database, datasets
 
 You can create these directories with the following command (from the MLCon root):
 
-```bash
-mkdir -p 1_FiftyOne/fiftyone_root/database 1_FiftyOne/fiftyone_root/default 1_FiftyOne/fiftyone_root/zoo/datasets 1_FiftyOne/fiftyone_root/zoo/models 1_FiftyOne/fiftyone_root/configs
-```
 
 Make sure to update your `.env` file with the correct paths if you change the directory names or locations.
 
