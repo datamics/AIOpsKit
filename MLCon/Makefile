@@ -24,7 +24,7 @@ install:
 	. $(VENV_DIR)/bin/activate; \
 	pip install -r requirements.txt
 
-run\ labelstudio:
+run_labelstudio:
 	. $(VENV_DIR)/bin/activate; \
 	label-studio start
 
